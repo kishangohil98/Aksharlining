@@ -1,0 +1,189 @@
+        body{
+            position: relative;
+        }
+        h2 span{
+            margin-top: -110px;
+            padding-bottom: 110px;
+            display: block;
+        }
+        .bgnav{
+            background-color: #F2F2F1;
+        }
+        .logo{
+            width:200px; 
+            height: auto;
+            transition: 0.7s ease-in-out;
+        }
+        .logo:hover{
+            width:250px;
+            height:auto;
+        }
+        .slider-t{
+            margin-top: 80px; 
+        }
+        .space-li
+        {
+            padding-left:20px;
+            padding-right:20px;
+            margin-left:10px;
+            margin-right: 10px;
+        }
+        .navbar-light .navbar-nav .nav-link{
+            transition: 0.7s ease-in-out;
+        }
+        a.callme{
+         border: 3px solid gray;   
+        }
+        .navbar-light .navbar-nav .nav-link:hover
+       {
+           background-color: #f7c173;
+           font-size: 20px;
+           border-radius: 5px;
+        }
+        .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link 
+        {
+            transition: 0.7s;
+            color: rgba(0,0,0,.9);
+            background-color: #f7c173;
+            box-shadow: 0 0 12px 0px black;
+            border:1px solid gray;
+            border-radius: 5px;
+        }    
+        .opact
+        {
+            opacity: 1;
+        }
+        .whatwedo{
+            background: #ffffff;
+        }
+        .wwdtitle
+        {
+            text-align: center;
+            
+        }
+        .card{
+            border:1px solid;
+            height:230px;
+            overflow: visible;
+            transition: 0.5s ease-in-out;
+        }
+        .card:hover{
+            box-shadow: 0 0 30px black;
+            background-color: #e4a653;
+            color:black ;
+            border: black;
+        }
+        .icon{
+            height: 30px;
+  
+        }
+        .wgimage{
+            max-width: 100%;
+            max-height: 100%;
+            background-size: cover;
+        }
+        #parallax{
+            height: 300px;
+            width:100%;
+            opacity:0.8;
+        }
+        .prlxh
+        {
+            padding-top: 120px;
+            color: ivory;
+            font-family :  Dancing Script;
+            font-size: 40px;
+            letter-spacing: 10px;
+            text-shadow: 0 0 50px black;
+        }
+        .prlxsh
+        {
+            font-family :  Arimo;
+            color:ivory;
+            text-shadow:0 0 30px black;
+        }
+        .wgimgbox{
+        overflow: hidden;
+        transition: 0.6s ease-in-out;
+        margin-bottom: 30px;
+        }
+        .wgimgbox:hover{
+            border:5px solid #e4a653;
+        }
+        .wgimage{
+            max-height: 100%;
+            max-width: 100%;
+            overflow: hidden;
+            transition: 0.6s ease-in-out;
+        }
+        .wgimage:hover{
+            box-shadow: 0 0 40px black;
+            transform: scale(1.3);
+        }
+        .wg-insta{
+            color:black;
+            transition: 0.3s ease-in-out;
+        }
+        .wg-insta:hover{
+            color:deeppink;
+            text-decoration: none;
+        }
+        .aboutus{
+            font-family: oxygen;
+            font-size:23px;
+        }
+        .aboutusli li{
+            font-family: oxygen;
+            font-size:17px;
+            list-style: circle;
+        }
+        .contactus{
+            background-color: #e4a653;
+            border-radius: 10px;
+            margin-bottom: -10px;
+        }
+        .contactus p{
+            color:black;
+        }
+        .contactus a{
+            color:white;
+            transition: 0.5s ease-in-out;
+        }
+        .contactus a:hover{
+           text-decoration: none;
+           color:black;
+        }
+        .footer{
+            background-color: #CB8425;
+        }
+        .navbar ul li a{
+            text-align: center;
+        }
+        html{
+            scroll-behavior:smooth;
+        }
+        #backtotop{
+            display:none;
+            position:fixed;
+            bottom:30px;
+            right:30px;
+            z-index: 2;
+            transition: 0.5s ease-in-out;
+            padding:10px;
+            border:none;
+            border-radius: 50%;
+            background-color: #D5D5D1;
+            opacity: 0.6;
+        }
+        #backtotop:hover{
+            opacity: 1;
+            cursor: pointer;
+        }
+        .followus{
+            transition: 0.4s ease-in-out;
+        }
+        .followus:hover{
+            opacity: 0.7;
+        }
+
+
