@@ -1,3 +1,3 @@
 # Akshar Lining
 
-Web project
+Web project for Akshar Lining and Furniture
